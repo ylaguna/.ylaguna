@@ -32,6 +32,7 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'thoughtbot/vim-rspec'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'fatih/vim-go'
+Plugin 'szw/vim-tags' "go-to-definition
 
 call vundle#end()            " required
 filetype plugin indent on    " required

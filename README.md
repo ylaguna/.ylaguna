@@ -1,3 +1,8 @@
+## Requirements
+
+* Vundle (https://github.com/VundleVim/Vundle.vim
+* Vim-livedown (https://github.com/shime/vim-livedown)
+
 ## For using go to the definition:
 
 Requires:

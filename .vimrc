@@ -103,3 +103,9 @@ map <Leader>a :call RunAllSpecs()<CR>
 nmap <silent> <Leader>u :UndotreeToggle<CR>
 
 let NERDTreeShowHidden=1
+
+"hardcore mode :P
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Right> <Nop>
+noremap <Left> <Nop>

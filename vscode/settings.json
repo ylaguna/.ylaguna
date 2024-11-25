@@ -1,0 +1,53 @@
+{
+    "editor.inlineSuggest.suppressSuggestions": true,
+
+    "window.zoomLevel": 1.2,
+    "workbench.iconTheme": "catppuccin-latte",
+    "editor.fontFamily": "JetBrains Mono Bold",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "editor.rulers": [
+    {
+        "column": 80,
+        "color": "#ff00ff53"
+    },
+    {
+        "column": 120,
+        "color": "#ff00004d"
+    },
+    ],
+
+    "extensions.ignoreRecommendations": true,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "explorer.sortOrder": "foldersNestsFiles",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.renderLineHighlight": "gutter",
+    "editor.scrollbar.vertical": "hidden",
+    "workbench.editor.labelFormat": "short",
+    "explorer.compactFolders":  false,
+    "editor.semanticHighlighting.enabled": false,
+    "workbench.activityBar.location": "hidden",
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "workbench.statusBar.visible": false,
+    "workbench.layoutControl.enabled": false,
+    "window.commandCenter": false,
+    "apc.header": {
+      "height": 36
+    },
+    "apc.font.family": "JetBrainsMono Nerd Font",
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+      "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
+      "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+      "tailwind.config.*": "tailwind.config*, postcss.config*",
+      ".env.local": ".env*",
+      ".env": ".env*"
+    },
+    "workbench.colorTheme": "Monokai Vibrant",
+}
